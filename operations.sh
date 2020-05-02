@@ -7,11 +7,7 @@ echo "enter b value"
 read b
 echo "enter c value"
 read c
-d=$(( $a+$b*$c ))
-echo $d
-e=$(( $a*$b+$c ))
-echo $e
-f=$(( $c+$a/$b ))
-echo $f
-g=$(( $a%$b+$c ))
-echo $g
+array[1]=$(( $a+$b*$c ))
+array[2]=$(( $a*$b+$c ))
+array[3]=$(( $c+$a/$b ))
+array[4]=$(( $a%$b+$c ))

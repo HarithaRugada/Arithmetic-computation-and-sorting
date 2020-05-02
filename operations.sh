@@ -9,3 +9,5 @@ echo "enter c value"
 read c
 d=$(( $a+$b*$c ))
 echo $d
+e=$(( $a*$b+$c ))
+echo $e

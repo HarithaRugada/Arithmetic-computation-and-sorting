@@ -18,3 +18,9 @@ for number in ${values[@]}
 do
 	echo $number
 done | sort -nr
+
+echo "The result of the expression in ascending order is"
+for number in ${values[@]}
+do
+	echo $number
+done | sort -n
